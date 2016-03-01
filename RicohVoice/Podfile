@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+ platform :ios, '7.0'
+
+target 'RicohVoice' do
+
+
+
+source 'https://github.com/CocoaPods/Specs.git'
+pod 'IMFPush'
+pod 'IMFData'
+pod 'IMFURLProtocol'
+pod 'IMFCore'
+
+end
+
+target 'RicohVoiceTests' do
+
+end
+
